@@ -5,14 +5,13 @@ import { VideoCard } from "@/components/video-card";
 import { Booking } from "@/components/footer";
 import { ScrollRail } from "@/components/scroll-rail";
 import { SectionTitle } from "@/components/ui";
-import { biography, heroSocialLinks, identity, identityStyles, performanceImages, performances, projects, videos } from "@/data/content";
+import { agendaEvents, musicPlatforms, biography, heroSocialLinks, identity, identityStyles, performanceImages, performances, projects, videos } from "@/data/content";
 import { galleryGroups } from "@/data/gallery";
 
 export default function Home() {
   return <>
     <section className="one-hero" id="inicio" tabIndex={-1}>
       <div className="one-hero-copy">
-        <p className="eyebrow">Cantora · intérprete · artista brasileira</p>
         <h1 aria-label="Nellva Sântana"><span className="hero-first-name"><span className="hero-initial">N</span>ellva</span>{" "}<span className="hero-surname">Sântana</span></h1>
         <p className="hero-line">Minha voz, meu canto...</p>
         <div className="hero-social-links">
@@ -55,7 +54,7 @@ export default function Home() {
       <SectionTitle eyebrow="A voz em cena" intro="Momentos em que música, cultura e presença artística se encontram.">Performances</SectionTitle>
       <div className="performance-stack">{performances.map((item, index) => {
         const asset = performanceImages[index];
-        return <article key={item.title} className={asset ? "" : "text-only"}>{asset && <figure className="performance-photo"><Image src={asset.src} alt={asset.alt} width={asset.width} height={asset.height} sizes="(max-width: 760px) 100vw, 48vw" /></figure>}<div><p className="eyebrow">{item.place} · {item.year}</p><h3>{item.title}</h3><p>{item.text}</p></div></article>;
+        return <article key={item.id} className={asset ? "" : "text-only"}>{asset && <figure className="performance-photo"><Image src={asset.src} alt={asset.alt} width={asset.width} height={asset.height} sizes="(max-width: 760px) 100vw, 48vw" /></figure>}<div><p className="eyebrow">{item.place} · {item.year}</p><h3>{item.title}</h3><p>{item.text}</p></div></article>;
       })}</div>
     </section>
 
@@ -68,7 +67,7 @@ export default function Home() {
       <header className="section-title"><h2>Parcerias <em>Musicais</em></h2></header>
       <div className="one-projects">{projects.map((project) => (
         <article key={project.title}>
-          <figure className={project.title === "Duo Intimè" ? "contain" : undefined}><Image src={project.image} alt={project.imageAlt} fill sizes="(max-width: 760px) 100vw, 48vw" /></figure>
+          <figure className="contain"><Image src={project.image} alt={project.imageAlt} fill sizes="(max-width: 760px) 100vw, 48vw" /></figure>
           <div>
             <h3>{project.title}</h3>
             <p className="project-summary">{project.summary}</p>
@@ -107,10 +106,10 @@ export default function Home() {
       </section>)}
     </section>
 
-    <section className="agenda-chapter anchor-section" id="agenda" tabIndex={-1}><p className="eyebrow">Agenda</p><h2>Novas apresentações<br /><em>serão anunciadas em breve.</em></h2></section>
+    <section className="agenda-chapter anchor-section" id="agenda" tabIndex={-1}><p className="eyebrow">Agenda</p>{agendaEvents.length ? <div className="agenda-events">{agendaEvents.map(event => <article key={event.id}><h3>{event.title}</h3><p><time dateTime={event.date}>{event.date}</time> · {event.place}</p>{event.href && <a className="text-link" href={event.href}>Detalhes</a>}</article>)}</div> : <h2>Novas apresentações<br /><em>serão anunciadas em breve.</em></h2>}</section>
 
     <section className="music-chapter anchor-section" id="musica" tabIndex={-1}>
-      <p className="eyebrow">Música</p><h2>Sua música em<br /><em>todas as plataformas.</em></h2><p>Da canção brasileira ao repertório de concerto, descubra diferentes encontros com a voz de Nellva.</p><a className="text-link" href="#videos">Ouça nas apresentações <span>↑</span></a>
+      <p className="eyebrow">Música</p><h2>Sua música em<br /><em>todas as plataformas.</em></h2><p>Da canção brasileira ao repertório de concerto, descubra diferentes encontros com a voz de Nellva.</p><a className="text-link" href="#videos">Ouça nas apresentações <span>↑</span></a><div className="music-platforms">{musicPlatforms.map(platform => platform.href ? <a key={platform.name} href={platform.href} target="_blank" rel="noopener noreferrer">{platform.name}</a> : <div key={platform.name}><h3>{platform.name}</h3><p>Lançamento em breve</p></div>)}</div>
     </section>
 
     <Press />
