@@ -1,6 +1,6 @@
 import type { MediaAsset } from "./content";
 
-// Curadoria das pastas da cliente. Não mover fotografias entre categorias.
+// Curadoria da cliente. Os close-ups 07/08 de Retratos também foram solicitados em Bastidores.
 export const galleryGroups: { id: string; title: string; images: MediaAsset[] }[] = [
   {
     "id": "nos-palcos",
@@ -107,6 +107,30 @@ export const galleryGroups: { id: string; title: string; images: MediaAsset[] }[
         "alt": "Nellva sentada perto de uma janela diante de uma pessoa com câmera",
         "width": 1920,
         "height": 887
+      },
+      {
+        "src": "/images/galeria/bastidores/foto-07.webp",
+        "alt": "Nellva de blusa floral diante da placa Fábrica de Cultura",
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "src": "/images/galeria/bastidores/foto-12.webp",
+        "alt": "Nellva sorrindo e segurando um microfone",
+        "width": 1920,
+        "height": 1920
+      },
+      {
+        "src": "/images/galeria/retratos/foto-07.webp",
+        "alt": "Nellva de perfil, com blusa estampada, sob projeções de luz",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "/images/galeria/retratos/foto-08.webp",
+        "alt": "Close-up em preto e branco de Nellva sob faixas de luz e sombra",
+        "width": 1080,
+        "height": 1080
       }
     ]
   },
@@ -114,12 +138,6 @@ export const galleryGroups: { id: string; title: string; images: MediaAsset[] }[
     "id": "retratos",
     "title": "Retratos",
     "images": [
-      {
-        "src": "/images/galeria/retratos/foto-10.webp",
-        "alt": "Nellva de camisa branca e renda escura diante de uma parede de tijolos",
-        "width": 1352,
-        "height": 1920
-      },
       {
         "src": "/images/galeria/retratos/foto-09.webp",
         "alt": "Nellva sorrindo com os braços erguidos e um tecido vermelho e dourado",
@@ -155,6 +173,24 @@ export const galleryGroups: { id: string; title: string; images: MediaAsset[] }[
         "alt": "Nellva com os braços erguidos sob listras de luz e sombras",
         "width": 1387,
         "height": 1920
+      },
+      {
+        "src": "/images/galeria/retratos/foto-10.webp",
+        "alt": "Nellva de camisa branca e renda escura diante de uma parede de tijolos",
+        "width": 1352,
+        "height": 1920
+      },
+      {
+        "src": "/images/galeria/retratos/foto-07.webp",
+        "alt": "Nellva de perfil, com blusa estampada, sob projeções de luz",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "/images/galeria/retratos/foto-08.webp",
+        "alt": "Close-up em preto e branco de Nellva sob faixas de luz e sombra",
+        "width": 1080,
+        "height": 1080
       }
     ]
   }

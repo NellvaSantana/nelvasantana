@@ -26,26 +26,79 @@ export const identityStyles = [
   { symbol: "05", name: "Canto erudito", description: "Árias de Ópera, Lied e Canto Coral Sacro." },
 ] as const;
 
+// FOTO 01–08: checklist da cliente; manter papéis e anos independentes.
 export const performances = [
-  { title: "66ª Paixão de Cristo", place: "Taboão da Serra", year: "2025", text: "Na Encenação da Paixão de Cristo, deu vida ao emblemático personagem Sentimento de Maria, emocionando o público com intensa presença cênica e interpretação de Ave Maria, de Franz Schubert — um marco de sua trajetória artística, onde voz, emoção e teatro se encontram." },
-  { title: "64ª Paixão de Cristo", place: "Taboão da Serra", year: "2023", text: "Na 64ª edição do espetáculo 'Encenação da Paixão de Cristo', deu vida à marcante personagem Verônica, atuando como atriz e solista na interpretação do tradicional Canto de Verônica, em uma performance que uniu expressividade cênica e excelência vocal." },
-  { title: "63ª Paixão de Cristo", place: "Taboão da Serra", year: "2019", text: "Entre voz e emoção, interpretou a personagem Anjo na 63ª edição da Encenação da Paixão de Cristo de Taboão da Serra, apresentando Ave Maria, de Franz Schubert, em uma performance de intensa expressividade cênica e sensibilidade musical." },
-  { title: "Mulheres que Cantam", place: "Teatro Adamastor", year: "2023", text: "Participação no programa realizado no Teatro Adamastor, em apresentação ao vivo com público e transmissão pelo YouTube, celebrando a força da voz feminina na música brasileira." },
-  { title: "Direção Musical", place: "Taboão da Serra", year: "2023", text: "Na direção musical de Quase Cinquenta – É Pra Rir ou Chorar, deu forma à identidade sonora da montagem, unindo repertório, arranjos e direção vocal em uma proposta marcada por sensibilidade, expressividade e unidade cênica." },
-  { title: "A Dança de OZ", place: "São Paulo", year: "2017", text: "No espetáculo de dança A Dança de OZ, uniu canto e movimento em cena, atuando como cantora e bailarina em uma performance marcada pela expressividade, versatilidade artística e presença de palco." },
+  {
+    "id": "foto-01",
+    "title": "66ª Paixão de Cristo",
+    "place": "Taboão da Serra",
+    "year": "2025",
+    "text": "Cada personagem vivida tornou-se um degrau importante na consolidação de sua identidade artística – uma cantora que une o canto lírico à força da narrativa cênica. Personagem “Verônica” na \"66º Encenação da Paixão de Cristo\" de Taboão da Serra."
+  },
+  {
+    "id": "foto-02",
+    "title": "66ª Paixão de Cristo",
+    "place": "Taboão da Serra",
+    "year": "2025",
+    "text": "Na Encenação da Paixão de Cristo, deu vida ao emblemático personagem Sentimento de Maria, emocionando o público com intensa presença cênica e interpretação de Ave Maria, de Franz Schubert – um marco de sua trajetória artística, onde voz, emoção e teatro se encontram."
+  },
+  {
+    "id": "foto-03",
+    "title": "64ª Paixão de Cristo",
+    "place": "Taboão da Serra",
+    "year": "2019",
+    "text": "Na 64ª edição do espetáculo \"Encenação da Paixão de Cristo\", deu vida à personagem \"Coração de Maria\", interpretando Ave Maria, de Franz Schubert, em uma apresentação que uniu emoção, delicadeza e excelência vocal."
+  },
+  {
+    "id": "foto-04",
+    "title": "64ª Paixão de Cristo",
+    "place": "Taboão da Serra",
+    "year": "2023",
+    "text": "Na 64ª edição da Encenação da Paixão de Cristo de Taboão da Serra, deu vida à marcante personagem Verônica, atuando como atriz e solista na interpretação do tradicional Canto de Verônica, em uma performance que uniu expressividade cênica e excelência vocal."
+  },
+  {
+    "id": "foto-05",
+    "title": "63ª Paixão de Cristo",
+    "place": "Taboão da Serra",
+    "year": "2019",
+    "text": "Entre voz e emoção, interpretou a personagem Anjo na 63ª edição da Encenação da Paixão de Cristo de Taboão da Serra, apresentando Ave Maria, de Franz Schubert, em uma performance de intensa expressividade cênica e sensibilidade musical."
+  },
+  {
+    "id": "foto-06",
+    "title": "Mulheres que Cantam",
+    "place": "Teatro Adamastor",
+    "year": "2023",
+    "text": "Participação no programa realizado no Teatro Adamastor, em apresentação ao vivo com público e transmissão pelo YouTube, celebrando a força da voz feminina na música brasileira."
+  },
+  {
+    "id": "foto-07",
+    "title": "Direção Musical",
+    "place": "Taboão da Serra",
+    "year": "2023",
+    "text": "Na direção musical de Quase Cinquenta – É Pra Rir ou Chorar, deu forma à identidade sonora da montagem, unindo repertório, arranjos e direção vocal em uma proposta marcada por sensibilidade, expressividade e unidade cênica."
+  },
+  {
+    "id": "foto-08",
+    "title": "A Dança de OZ",
+    "place": "São Paulo",
+    "year": "2017",
+    "text": "No espetáculo de dança A Dança de OZ, uniu canto e movimento em cena, atuando como cantora e bailarina em uma performance marcada pela expressividade, versatilidade artística e presença de palco."
+  }
 ];
 
 export const projects = [
-  { title: "Noutra Bossa", image: "/images/projeto-noutra-bossa.jpg", imageAlt: "Capa do projeto Noutra Bossa", youtube: "https://www.youtube.com/watch?v=jr-tpTtKdFI&list=RDjr-tpTtKdFI&start_radio=1", instagram: "https://www.instagram.com/noutrabossa?igsh=MTNkb2c0YTdhZndqNQ%3D%3D", summary: "Músicas autorais e releituras em parceria, disponíveis no Spotify e YouTube.", text: "Entre a criação e a reinvenção, o Noutra Bossa apresenta um repertório de músicas autorais e releituras em parceria, revelando uma identidade musical singular. Disponível no Spotify e no YouTube, o projeto amplia o diálogo entre tradição, sensibilidade e contemporaneidade." },
+  { title: "Noutra Bossa", image: "/images/projeto-noutra-bossa-completo.jpg", imageAlt: "Capa do projeto Noutra Bossa", youtube: "https://www.youtube.com/watch?v=jr-tpTtKdFI&list=RDjr-tpTtKdFI&start_radio=1", instagram: "https://www.instagram.com/noutrabossa?igsh=MTNkb2c0YTdhZndqNQ%3D%3D", summary: "Músicas autorais e releituras em parceria, disponíveis no Spotify e YouTube.", text: "Entre a criação e a reinvenção, o Noutra Bossa apresenta um repertório de músicas autorais e releituras em parceria, revelando uma identidade musical singular. Disponível no Spotify e no YouTube, o projeto amplia o diálogo entre tradição, sensibilidade e contemporaneidade." },
   // The existing cover identifies Duo Intimè; the approved copy below describes its repertoire.
-  { title: "Duo Intimè", image: "/images/projeto-cancao-erudita.jpg", imageAlt: "Logotipo do Duo Intimè com violão", youtube: "https://www.youtube.com/watch?v=A2tG0UlGDE0&list=RDA2tG0UlGDE0&start_radio=1", instagram: "https://www.instagram.com/duo.intime?igsh=MXhxcndnNGJ6OTVocg%3D%3D", summary: "Concerto de Música de Câmara dedicado à Canção Erudita Brasileira.", text: "Concerto de Música de Câmara dedicado à Canção Erudita Brasileira, apresentando obras autorais em parceria com compositores. O repertório valoriza a criação contemporânea e a identidade musical brasileira." },
+  { title: "Duo Intimè", image: "/images/projeto-cancao-erudita-completo.jpg", imageAlt: "Logotipo do Duo Intimè com violão", youtube: "https://www.youtube.com/watch?v=A2tG0UlGDE0&list=RDA2tG0UlGDE0&start_radio=1", instagram: "https://www.instagram.com/duo.intime?igsh=MXhxcndnNGJ6OTVocg%3D%3D", summary: "Concerto de Música de Câmara dedicado à Canção Erudita Brasileira.", text: "Concerto de Música de Câmara dedicado à Canção Erudita Brasileira, apresentando obras autorais em parceria com compositores. O repertório valoriza a criação contemporânea e a identidade musical brasileira." },
 ];
 
 export type MediaAsset = { src: string; alt: string; width: number; height: number };
 export type Video = { id: string; title: string; youtubeUrl: string; youtubeId: string; format: "video" | "short"; featured?: boolean };
 
 export const performanceImages: MediaAsset[] = [
-  { src: "/images/paixao-2025.png", alt: "Nellva como Sentimento de Maria, junto ao intérprete de Jesus", width: 1080, height: 1350 },
+  { src: "/images/paixao-2025.png", alt: "Nellva de véu azul junto ao intérprete de Jesus", width: 1080, height: 1350 },
+  { src: "/images/paixao-2025-retrato.png", alt: "Nellva de véu azul, com uma mão sobre o peito", width: 1080, height: 1350 },
+  { src: "/images/paixao-2023-cena.png", alt: "Cena da Paixão de Cristo com três intérpretes", width: 1080, height: 1350 },
   { src: "/images/paixao-2023-veronica.png", alt: "Nellva como Verônica, segurando o tecido em cena", width: 1080, height: 1350 },
   { src: "/images/paixao-2019.jpg", alt: "Nellva no papel de Anjo na encenação da Paixão de Cristo", width: 1024, height: 830 },
   { src: "/images/mulheres-que-cantam.png", alt: "Montagem panorâmica da apresentação no Mulheres que Cantam", width: 1920, height: 1080 },
@@ -119,4 +172,12 @@ export const videos: Video[] = [
     "youtubeId": "P_sXU2_2IEI",
     "format": "video"
   }
+];
+
+export type AgendaEvent = { id: string; title: string; date: string; place: string; href?: string };
+export const agendaEvents: AgendaEvent[] = [];
+
+export type MusicPlatform = { name: string; href?: string };
+export const musicPlatforms: MusicPlatform[] = [
+  { name: "Spotify" }, { name: "Apple Music" }, { name: "Deezer" },
 ];
