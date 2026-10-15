@@ -24,9 +24,9 @@ export function VideoCard({ video }: { video: Video }) {
     };
   }, [playing]);
 
-  return <article className={video.featured ? "featured" : ""} aria-labelledby={titleId}>
+  return <article aria-labelledby={titleId}>
     <figure>
-      <Image src={`/images/videos/${video.youtubeId}.jpg`} alt="" fill sizes={video.featured ? "(max-width: 760px) 86vw, 760px" : "(max-width: 760px) 82vw, 560px"} />
+      <Image src={`/images/videos/${video.youtubeId}.jpg`} alt="" fill sizes="(max-width: 760px) 82vw, (max-width: 1076px) 52vw, 560px" />
       <button ref={trigger} type="button" className="video-open" onClick={() => setPlaying(true)} aria-label={`Abrir vídeo: ${video.title}`} aria-haspopup="dialog">
         <span className="video-play" aria-hidden="true">▶</span>
       </button>

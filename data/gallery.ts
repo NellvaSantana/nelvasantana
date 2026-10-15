@@ -139,6 +139,12 @@ export const galleryGroups: { id: string; title: string; images: MediaAsset[] }[
     "title": "Retratos",
     "images": [
       {
+        "src": "/images/galeria/retratos/foto-01.webp",
+        "alt": "Nellva com os braços erguidos sob listras de luz e sombras",
+        "width": 1387,
+        "height": 1920
+      },
+      {
         "src": "/images/galeria/retratos/foto-09.webp",
         "alt": "Nellva sorrindo com os braços erguidos e um tecido vermelho e dourado",
         "width": 1920,
@@ -151,10 +157,10 @@ export const galleryGroups: { id: string; title: string; images: MediaAsset[] }[
         "height": 1920
       },
       {
-        "src": "/images/galeria/retratos/foto-04.webp",
-        "alt": "Nellva de olhos fechados, com uma mão no cabelo e saia vermelha",
-        "width": 1280,
-        "height": 1920
+        "src": "/images/galeria/retratos/foto-07.webp",
+        "alt": "Nellva de perfil, com blusa estampada, sob projeções de luz",
+        "width": 1080,
+        "height": 1080
       },
       {
         "src": "/images/galeria/retratos/foto-03.webp",
@@ -163,34 +169,28 @@ export const galleryGroups: { id: string; title: string; images: MediaAsset[] }[
         "height": 1280
       },
       {
+        "src": "/images/galeria/retratos/foto-04.webp",
+        "alt": "Nellva de olhos fechados, com uma mão no cabelo e saia vermelha",
+        "width": 1280,
+        "height": 1920
+      },
+      {
         "src": "/images/galeria/retratos/foto-05.webp",
         "alt": "Nellva de blusa azul com uma mão no cabelo e colar longo",
         "width": 1280,
         "height": 1920
       },
       {
-        "src": "/images/galeria/retratos/foto-01.webp",
-        "alt": "Nellva com os braços erguidos sob listras de luz e sombras",
-        "width": 1387,
-        "height": 1920
+        "src": "/images/galeria/retratos/foto-08.webp",
+        "alt": "Close-up em preto e branco de Nellva sob faixas de luz e sombra",
+        "width": 1080,
+        "height": 1080
       },
       {
         "src": "/images/galeria/retratos/foto-10.webp",
         "alt": "Nellva de camisa branca e renda escura diante de uma parede de tijolos",
         "width": 1352,
         "height": 1920
-      },
-      {
-        "src": "/images/galeria/retratos/foto-07.webp",
-        "alt": "Nellva de perfil, com blusa estampada, sob projeções de luz",
-        "width": 1080,
-        "height": 1080
-      },
-      {
-        "src": "/images/galeria/retratos/foto-08.webp",
-        "alt": "Close-up em preto e branco de Nellva sob faixas de luz e sombra",
-        "width": 1080,
-        "height": 1080
       }
     ]
   }
