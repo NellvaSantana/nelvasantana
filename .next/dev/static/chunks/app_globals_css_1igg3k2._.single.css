@@ -1,5 +1,9 @@
 /* [project]/app/globals.css [app-client] (css) */
 :root {
+  --type-label: clamp(.875rem,.83rem + .12vw,1rem);
+  --type-description: clamp(1.0625rem,1rem + .14vw,1.125rem);
+  --type-auxiliary: 1rem;
+  --leading-description: 1.8;
   --gold: #b8860b;
   --gold-aged: #7a5807;
   --ink: #1a0f0d;
@@ -74,12 +78,12 @@ main {
 
 .eyebrow {
   font-family: var(--font-condensed),sans-serif;
-  letter-spacing: .22em;
+  font-size: var(--type-label);
+  letter-spacing: .18em;
   text-transform: uppercase;
   color: var(--gold-aged);
-  font-size: .76rem;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 .site-header {
@@ -1631,15 +1635,15 @@ footer small {
 }
 
 .artist-chapter dt {
-  font: .65rem var(--font-condensed);
+  font: var(--type-label)/1.5 var(--font-condensed);
   letter-spacing: .16em;
   text-transform: uppercase;
   color: var(--gold-aged);
 }
 
 .artist-chapter dd {
-  font: italic 1.15rem var(--font-serif);
-  margin: 0;
+  font: italic clamp(1.3rem,1.2rem + .25vw,1.5rem)/1.5 var(--font-serif);
+  margin: .25rem 0 0;
 }
 
 .artist-copy p {
@@ -1722,9 +1726,9 @@ footer small {
 
 .identity-style p {
   color: #574b46;
+  font-size: var(--type-description);
+  line-height: var(--leading-description);
   margin: 0;
-  font-size: 1rem;
-  line-height: 1.7;
 }
 
 @media (min-width: 601px) and (max-width: 1100px) {
@@ -2935,11 +2939,11 @@ section:focus {
   max-width: none;
   -webkit-mask-image: linear-gradient(90deg, #0000, #000 12% 88%, #0000);
   mask-image: linear-gradient(90deg, #0000, #000 12% 88%, #0000);
-  width: min(52vw, 760px) !important;
+  width: min(57vw, 840px) !important;
   height: auto !important;
   left: auto !important;
-  right: max(0px, 50vw - 800px) !important;
-  top: calc(var(--header) - min(14vw, 200px)) !important;
+  right: max(1vw, 50vw - 780px) !important;
+  top: calc(var(--header) - min(16vw, 225px)) !important;
 }
 
 .one-hero-photo:after {
@@ -2999,9 +3003,9 @@ section:focus {
   .one-hero-photo img {
     -webkit-mask-image: none;
     mask-image: none;
-    width: 100% !important;
+    width: 104% !important;
     top: -23% !important;
-    right: 0 !important;
+    right: -2% !important;
   }
 
   .one-hero-photo:after {
@@ -3023,9 +3027,9 @@ section:focus {
 }
 
 .performances-chapter .eyebrow {
+  font-size: var(--type-label);
   letter-spacing: .12em;
   color: #7a5807;
-  font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -3071,12 +3075,12 @@ section:focus {
 }
 
 .performances-chapter .performance-stack article > div > p:last-child {
-  color: #574b46;
   max-width: 55ch;
-  margin: 0;
-  font-size: clamp(1.125rem, 1rem + .2vw, 1.1875rem);
+  font-size: var(--type-description);
   font-weight: 400;
-  line-height: 1.75;
+  line-height: var(--leading-description);
+  color: #574b46;
+  margin: 0;
 }
 
 @media (max-width: 900px) {
@@ -3562,13 +3566,14 @@ section:focus {
 }
 
 .music-platforms h3 {
-  font: 500 1rem var(--font-sans);
+  font: 500 var(--type-description)/1.5 var(--font-sans);
   margin: 0 0 .5rem;
 }
 
 .music-platforms p {
+  font-size: var(--type-auxiliary);
   margin: 0;
-  font-size: .875rem;
+  line-height: 1.7;
 }
 
 @media (max-width: 760px) {
@@ -3581,6 +3586,24 @@ section:focus {
   .one-hero-photo {
     width: 65vw;
     margin: -3rem auto 0;
+  }
+}
+
+.release-content > p:not(.eyebrow), .music-chapter > p:not(.eyebrow) {
+  font-size: var(--type-description);
+  line-height: var(--leading-description);
+}
+
+.release-content > p:not(.eyebrow) {
+  color: #574b46;
+}
+
+@media (min-width: 761px) {
+  .artist-copy p, .identity-chapter > div > p, .performance-stack article > div > p:last-child, .one-projects article > div > p:not(.project-summary), .clipping-content header > p {
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
   }
 }
 
