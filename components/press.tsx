@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { release } from "@/data/content";
 
 const clippings = [
   { file: "01", source: "Jornal na Net", description: "Grupo Equus Bipes de teatro apresenta: Quase 50 é pra rir ou chorar", width: 1200, height: 630 },
@@ -25,6 +26,13 @@ export function Press() {
         <figcaption><span>{item.source}</span><a className="text-link" href={`/images/imprensa/foto-${item.file}.png`} target="_blank" rel="noopener noreferrer" aria-label={`Ver imagem completa: ${item.source} (abre em nova aba)`}>Ver recorte <span aria-hidden="true">↗</span></a></figcaption>
       </figure>)}</div>
     </section>
-    <section className="release-content anchor-section" id="release" tabIndex={-1} aria-labelledby="release-title"><p className="eyebrow">Material profissional</p><h3 id="release-title">Release</h3><p>Release ainda não disponível.</p></section>
+    <section className="release-content anchor-section" id="release" lang="pt-BR" tabIndex={-1} aria-labelledby="release-title"><div className="release-editorial">
+      <div className="release-visual">
+        <Image className="release-photo-background" src="/images/nellva-microfone.jpeg" alt="" fill sizes="(max-width: 900px) 250vw, 140vw" />
+        <figure className="release-photo"><h3 id="release-title">Release</h3><div className="release-photo-crop"><Image src="/images/nellva-microfone.jpeg" alt="Nellva Sântana de roupa preta, com microfone de estúdio dourado e cabelos iluminados lateralmente" fill sizes="(max-width: 900px) 250vw, 140vw" /></div></figure>
+      </div>
+      <div className="release-copy">
+      <p className="release-signature"><Image src="/images/nellva-assinatura-release.svg" alt="Nellva Sântana" width={255} height={54} unoptimized /></p>{release.map(paragraph => <p key={paragraph}>{paragraph}</p>)}</div>
+    </div></section>
   </section>;
 }

@@ -1,0 +1,207 @@
+{
+  "results": [
+    {
+      "width": 375,
+      "height": 812,
+      "overflow": false,
+      "brokenImages": [],
+      "unresolvedAnchors": [],
+      "releaseParagraphs": 3,
+      "smallText": [],
+      "signatureLines": [
+        {
+          "width": 330,
+          "scroll": 330
+        },
+        {
+          "width": 330,
+          "scroll": 330
+        }
+      ],
+      "fonts": "loaded"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "brokenImages": [],
+      "unresolvedAnchors": [],
+      "releaseParagraphs": 3,
+      "smallText": [],
+      "signatureLines": [
+        {
+          "width": 343.21875,
+          "scroll": 343
+        },
+        {
+          "width": 343.21875,
+          "scroll": 343
+        }
+      ],
+      "fonts": "loaded"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "overflow": false,
+      "brokenImages": [],
+      "unresolvedAnchors": [],
+      "releaseParagraphs": 3,
+      "smallText": [],
+      "signatureLines": [
+        {
+          "width": 378.40625,
+          "scroll": 378
+        },
+        {
+          "width": 378.40625,
+          "scroll": 378
+        }
+      ],
+      "fonts": "loaded"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "brokenImages": [],
+      "unresolvedAnchors": [],
+      "releaseParagraphs": 3,
+      "smallText": [],
+      "signatureLines": [
+        {
+          "width": 675.84375,
+          "scroll": 676
+        },
+        {
+          "width": 675.84375,
+          "scroll": 676
+        }
+      ],
+      "fonts": "loaded"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "brokenImages": [],
+      "unresolvedAnchors": [],
+      "releaseParagraphs": 3,
+      "smallText": [],
+      "signatureLines": [
+        {
+          "width": 414.515625,
+          "scroll": 415
+        },
+        {
+          "width": 414.515625,
+          "scroll": 415
+        }
+      ],
+      "fonts": "loaded"
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "overflow": false,
+      "brokenImages": [],
+      "unresolvedAnchors": [],
+      "releaseParagraphs": 3,
+      "smallText": [],
+      "signatureLines": [
+        {
+          "width": 518.140625,
+          "scroll": 518
+        },
+        {
+          "width": 518.140625,
+          "scroll": 518
+        }
+      ],
+      "fonts": "loaded"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "brokenImages": [],
+      "unresolvedAnchors": [],
+      "releaseParagraphs": 3,
+      "smallText": [],
+      "signatureLines": [
+        {
+          "width": 582.90625,
+          "scroll": 583
+        },
+        {
+          "width": 582.90625,
+          "scroll": 583
+        }
+      ],
+      "fonts": "loaded"
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "overflow": false,
+      "brokenImages": [],
+      "unresolvedAnchors": [],
+      "releaseParagraphs": 3,
+      "smallText": [],
+      "signatureLines": [
+        {
+          "width": 662.390625,
+          "scroll": 662
+        },
+        {
+          "width": 662.390625,
+          "scroll": 662
+        }
+      ],
+      "fonts": "loaded"
+    },
+    {
+      "width": 320,
+      "height": 800,
+      "overflow": false,
+      "brokenImages": [],
+      "unresolvedAnchors": [],
+      "releaseParagraphs": 3,
+      "smallText": [],
+      "signatureLines": [
+        {
+          "width": 281.625,
+          "scroll": 282
+        },
+        {
+          "width": 281.625,
+          "scroll": 282
+        }
+      ],
+      "fonts": "loaded"
+    },
+    {
+      "width": 720,
+      "height": 450,
+      "overflow": false,
+      "brokenImages": [],
+      "unresolvedAnchors": [],
+      "releaseParagraphs": 3,
+      "smallText": [],
+      "signatureLines": [
+        {
+          "width": 633.625,
+          "scroll": 634
+        },
+        {
+          "width": 633.625,
+          "scroll": 634
+        }
+      ],
+      "fonts": "loaded"
+    }
+  ],
+  "errors": [],
+  "railKeyboard": true,
+  "releaseAnchor": true
+}

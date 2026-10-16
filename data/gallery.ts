@@ -1,6 +1,6 @@
 import type { MediaAsset } from "./content";
 
-// Curadoria da cliente. Os close-ups 07/08 de Retratos também foram solicitados em Bastidores.
+// Curadoria da cliente: retratos artísticos permanecem exclusivamente em Retratos.
 export const galleryGroups: { id: string; title: string; images: MediaAsset[] }[] = [
   {
     "id": "nos-palcos",
@@ -119,18 +119,6 @@ export const galleryGroups: { id: string; title: string; images: MediaAsset[] }[
         "alt": "Nellva sorrindo e segurando um microfone",
         "width": 1920,
         "height": 1920
-      },
-      {
-        "src": "/images/galeria/retratos/foto-07.webp",
-        "alt": "Nellva de perfil, com blusa estampada, sob projeções de luz",
-        "width": 1080,
-        "height": 1080
-      },
-      {
-        "src": "/images/galeria/retratos/foto-08.webp",
-        "alt": "Close-up em preto e branco de Nellva sob faixas de luz e sombra",
-        "width": 1080,
-        "height": 1080
       }
     ]
   },

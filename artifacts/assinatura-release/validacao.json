@@ -1,0 +1,35 @@
+[
+  {
+    "width": 1440,
+    "errors": [],
+    "source": "http://localhost:3000/images/nellva-assinatura-release.svg",
+    "alt": "Nellva Sântana",
+    "renderedWidth": 383.21875,
+    "renderedHeight": 81.375,
+    "ratio": 4.709293394777266,
+    "overflow": false,
+    "signatureCount": 1
+  },
+  {
+    "width": 768,
+    "errors": [],
+    "source": "http://localhost:3000/images/nellva-assinatura-release.svg",
+    "alt": "Nellva Sântana",
+    "renderedWidth": 445.078125,
+    "renderedHeight": 94.515625,
+    "ratio": 4.709042816994544,
+    "overflow": false,
+    "signatureCount": 1
+  },
+  {
+    "width": 390,
+    "errors": [],
+    "source": "http://localhost:3000/images/nellva-assinatura-release.svg",
+    "alt": "Nellva Sântana",
+    "renderedWidth": 211.390625,
+    "renderedHeight": 44.890625,
+    "ratio": 4.709014966933519,
+    "overflow": false,
+    "signatureCount": 1
+  }
+]
