@@ -181,3 +181,10 @@ export type MusicPlatform = { name: string; href?: string };
 export const musicPlatforms: MusicPlatform[] = [
   { name: "Spotify" }, { name: "Apple Music" }, { name: "Deezer" },
 ];
+
+// Transcrição integral do Release fornecido pela artista (referência editorial).
+export const release = [
+  "Cantora e produtora cultural, com atuação entre a música popular brasileira, música nordestina e o canto lírico. Pós-graduada em Produção Cultural, Arte e Entretenimento, iniciou seus estudos musicais em 2012 e, desde então, vem percorrendo um caminho que une diferentes linguagens da música brasileira e erudita.",
+  "Sua experiência inclui 13 anos de atuação como corista no Coral Sacro Grata Nova, estudos na EMESP Tom Jobim e participações em espetáculos de teatro, dança e música, incluindo apresentações na Sala São Paulo. Em parceria atuou em projetos autorais como Noutra Bossa e Duo Intimé. Como produtora cultural atua como produção executiva, e gestão de agendas artísticas.",
+  "Entre o canto, a cena e a produção cultural, Nellva desenvolve um trabalho pautado pela valorização da música brasileira, suas raízes e diferentes formas de expressão",
+];

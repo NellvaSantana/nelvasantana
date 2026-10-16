@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         <a className="hero-cue" href="#artista">A artista <span aria-hidden="true">↓</span></a>
       </div>
-      <figure className="one-hero-photo"><Image src="/images/nellva-hero.jpg" alt="Nellva Sântana cantando ao microfone, de vestido floral" fill loading="eager" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+      <figure className="one-hero-photo"><Image src="/images/nellva-hero.jpg" alt="Nellva Sântana cantando ao microfone, de vestido floral" fill loading="eager" sizes="(max-width: 900px) 100vw, (max-width: 1440px) 66vw, 980px" /></figure>
       <p className="hero-origin">Nordeste, Brasil</p>
     </section>
 
