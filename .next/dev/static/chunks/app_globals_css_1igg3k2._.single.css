@@ -1,8 +1,8 @@
 /* [project]/app/globals.css [app-client] (css) */
 :root {
   --type-label: clamp(.875rem,.83rem + .12vw,1rem);
-  --type-description: clamp(1.0625rem,1rem + .14vw,1.125rem);
-  --type-auxiliary: 1rem;
+  --type-description: clamp(1rem,.96rem + .2vw,1.125rem);
+  --type-auxiliary: clamp(.875rem,.85rem + .1vw,.9375rem);
   --leading-description: 1.8;
   --gold: #b8860b;
   --gold-aged: #7a5807;
@@ -3604,6 +3604,204 @@ section:focus {
     text-justify: inter-word;
     -webkit-hyphens: auto;
     hyphens: auto;
+  }
+}
+
+body {
+  font-size: var(--type-description);
+}
+
+.artist-copy p, .identity-chapter > div > p, .one-projects article > div > p:not(.project-summary), .section-title > p:last-child:not(.eyebrow), .gallery-chapter .chapter-heading > p, .clipping-content header > p, .booking-contact > p, .agenda-chapter > p:not(.eyebrow) {
+  font-size: var(--type-description);
+  line-height: var(--leading-description);
+}
+
+.music-platforms p {
+  font-size: 1rem;
+}
+
+.text-link, .hero-cue, .one-hero .hero-cue, footer > div, .gallery-group-heading > span, .gallery-rail figcaption, .hero-origin, .menu-panel nav small, footer small {
+  font-size: var(--type-auxiliary);
+  line-height: 1.6;
+}
+
+.text-link, .hero-cue, footer > div a {
+  min-height: 44px;
+}
+
+footer > div {
+  gap: .25rem;
+}
+
+.menu-panel nav small {
+  color: tan;
+}
+
+.hero-origin {
+  color: var(--paper);
+}
+
+:where(a, button):focus-visible {
+  outline-offset: 4px;
+  outline: 2px solid;
+}
+
+.release-content {
+  --release-gold: #ddc795;
+  --release-brown: #603b28;
+  border-top: 0;
+  padding-top: 0;
+}
+
+.release-editorial {
+  background: var(--release-gold);
+  color: #111;
+  grid-template-columns: minmax(0, 49.5fr) minmax(0, 50.5fr);
+  align-items: stretch;
+  gap: 0;
+  display: grid;
+  container-type: inline-size;
+}
+
+.release-visual {
+  min-width: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.release-visual .release-photo-background {
+  object-fit: cover;
+  object-position: 58% 100%;
+  transform-origin: bottom;
+  transform: scale(1.15);
+}
+
+.release-photo {
+  background: var(--release-gold);
+  min-width: 0;
+  margin: 1.94cqi 2.625cqi 1.94cqi 0;
+  padding: .625cqi 2.4cqi 3.25cqi 2.2cqi;
+  position: relative;
+}
+
+.release-photo h3 {
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  margin: 0 0 .2cqi;
+  font: 700 2.5cqi / 1.15 Arial, sans-serif;
+}
+
+.release-photo-crop {
+  aspect-ratio: 677 / 963;
+  position: relative;
+  overflow: hidden;
+}
+
+.release-photo-crop img {
+  object-fit: cover;
+  object-position: 58% 100%;
+  transform-origin: bottom;
+  transform: scale(1.3);
+}
+
+.release-copy {
+  min-width: 0;
+  padding: 2.6cqi 3.5cqi 3.8cqi 3.8cqi;
+}
+
+.release-copy > p:not(.release-signature) {
+  text-align: justify;
+  -webkit-hyphens: none;
+  hyphens: none;
+  overflow-wrap: normal;
+  letter-spacing: 0;
+  margin: 0 0 1.4em;
+  font: 700 1.875cqi / 1.28 Arial, sans-serif;
+}
+
+.release-copy > p:last-child {
+  margin-bottom: 0;
+}
+
+.release-copy .release-signature {
+  align-items: center;
+  height: 1.2em;
+  margin: 0 0 .7em;
+  font-size: clamp(2.5rem, 6cqi, 5.5rem);
+  line-height: 1.2;
+  display: flex;
+}
+
+.release-signature img {
+  width: 70%;
+  height: auto;
+  margin-left: 10.5%;
+  display: block;
+}
+
+@media (min-width: 901px) {
+  .one-hero-photo img {
+    width: min(66vw, 980px) !important;
+    right: max(-2vw, 50vw - 850px) !important;
+    top: calc(var(--header) - min(18vw,255px)) !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .release-editorial {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .release-photo {
+    margin: 1rem 1rem 1rem 0;
+    padding: .625rem 1.25rem 1.5rem;
+  }
+
+  .release-photo h3 {
+    margin-bottom: .25rem;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+  }
+
+  .release-photo-crop {
+    aspect-ratio: 677 / 963;
+  }
+
+  .release-copy {
+    padding: 1.5rem 1.25rem 2rem;
+  }
+
+  .release-copy > p:not(.release-signature) {
+    text-align: left;
+    letter-spacing: 0;
+    -webkit-hyphens: none;
+    hyphens: none;
+    font-size: clamp(1rem, 2.4vw, 1.375rem);
+    line-height: 1.5;
+  }
+
+  .release-copy .release-signature {
+    white-space: normal;
+    margin-bottom: .8em;
+    font-size: clamp(2rem, 7.5vw, 4rem);
+  }
+
+  .one-hero-photo {
+    margin-top: 0;
+  }
+
+  .one-hero-copy {
+    padding-bottom: 1rem;
+  }
+
+  .press-chapter {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .artist-copy p, .identity-chapter > div > p, .performance-stack article > div > p:last-child, .one-projects article > div > p:not(.project-summary), .clipping-content header > p {
+    text-align: start;
+    -webkit-hyphens: none;
+    hyphens: none;
   }
 }
 

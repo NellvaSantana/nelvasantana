@@ -26,10 +26,13 @@ export function Press() {
         <figcaption><span>{item.source}</span><a className="text-link" href={`/images/imprensa/foto-${item.file}.png`} target="_blank" rel="noopener noreferrer" aria-label={`Ver imagem completa: ${item.source} (abre em nova aba)`}>Ver recorte <span aria-hidden="true">↗</span></a></figcaption>
       </figure>)}</div>
     </section>
-    <section className="release-content anchor-section" id="release" tabIndex={-1} aria-labelledby="release-title"><p className="eyebrow">Material profissional</p><h3 id="release-title">Release</h3><div className="release-editorial">
-      {/* Temporary existing photograph; the original gold-microphone portrait is pending. */}
-      <figure className="release-photo"><Image src="/images/nellva-hero.jpg" alt="Nellva Sântana cantando ao microfone, de vestido floral" width={1357} height={2048} sizes="(max-width: 900px) 88vw, 36vw" /></figure>
-      <div className="release-copy"><p className="release-signature" aria-label="Nellva Sântana">Nellva Sântana</p>{release.map(paragraph => <p key={paragraph}>{paragraph}</p>)}</div>
+    <section className="release-content anchor-section" id="release" lang="pt-BR" tabIndex={-1} aria-labelledby="release-title"><div className="release-editorial">
+      <div className="release-visual">
+        <Image className="release-photo-background" src="/images/nellva-microfone.jpeg" alt="" fill sizes="(max-width: 900px) 250vw, 140vw" />
+        <figure className="release-photo"><h3 id="release-title">Release</h3><div className="release-photo-crop"><Image src="/images/nellva-microfone.jpeg" alt="Nellva Sântana de roupa preta, com microfone de estúdio dourado e cabelos iluminados lateralmente" fill sizes="(max-width: 900px) 250vw, 140vw" /></div></figure>
+      </div>
+      <div className="release-copy">
+      <p className="release-signature"><Image src="/images/nellva-assinatura-release.svg" alt="Nellva Sântana" width={255} height={54} unoptimized /></p>{release.map(paragraph => <p key={paragraph}>{paragraph}</p>)}</div>
     </div></section>
   </section>;
 }

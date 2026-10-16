@@ -1,11 +1,11 @@
 [
   {
     "route": "/",
-    "firstLoadUncompressedJsBytes": 485088,
+    "firstLoadUncompressedJsBytes": 485035,
     "firstLoadChunkPaths": [
       ".next/static/chunks/3fntmmi971322.js",
-      ".next/static/chunks/1pvvrqrtaqbm4.js",
-      ".next/static/chunks/3vz5b9hvdmfq_.js",
+      ".next/static/chunks/2ebtkqqk22sak.js",
+      ".next/static/chunks/1xncjup8h2o7r.js",
       ".next/static/chunks/3s6nzrbk-8mnv.js",
       ".next/static/chunks/19mx3mg6lkumu.js",
       ".next/static/chunks/1j_9b-l0n6u-t.js",
@@ -18,7 +18,7 @@
     "firstLoadUncompressedJsBytes": 480915,
     "firstLoadChunkPaths": [
       ".next/static/chunks/3fntmmi971322.js",
-      ".next/static/chunks/1pvvrqrtaqbm4.js",
+      ".next/static/chunks/2ebtkqqk22sak.js",
       ".next/static/chunks/3s6nzrbk-8mnv.js",
       ".next/static/chunks/19mx3mg6lkumu.js",
       ".next/static/chunks/1j_9b-l0n6u-t.js",
@@ -31,7 +31,7 @@
     "firstLoadUncompressedJsBytes": 480915,
     "firstLoadChunkPaths": [
       ".next/static/chunks/3fntmmi971322.js",
-      ".next/static/chunks/1pvvrqrtaqbm4.js",
+      ".next/static/chunks/2ebtkqqk22sak.js",
       ".next/static/chunks/3s6nzrbk-8mnv.js",
       ".next/static/chunks/19mx3mg6lkumu.js",
       ".next/static/chunks/1j_9b-l0n6u-t.js",
@@ -44,7 +44,7 @@
     "firstLoadUncompressedJsBytes": 480915,
     "firstLoadChunkPaths": [
       ".next/static/chunks/3fntmmi971322.js",
-      ".next/static/chunks/1pvvrqrtaqbm4.js",
+      ".next/static/chunks/2ebtkqqk22sak.js",
       ".next/static/chunks/3s6nzrbk-8mnv.js",
       ".next/static/chunks/19mx3mg6lkumu.js",
       ".next/static/chunks/1j_9b-l0n6u-t.js",
@@ -57,7 +57,7 @@
     "firstLoadUncompressedJsBytes": 480915,
     "firstLoadChunkPaths": [
       ".next/static/chunks/3fntmmi971322.js",
-      ".next/static/chunks/1pvvrqrtaqbm4.js",
+      ".next/static/chunks/2ebtkqqk22sak.js",
       ".next/static/chunks/3s6nzrbk-8mnv.js",
       ".next/static/chunks/19mx3mg6lkumu.js",
       ".next/static/chunks/1j_9b-l0n6u-t.js",
@@ -70,7 +70,7 @@
     "firstLoadUncompressedJsBytes": 480915,
     "firstLoadChunkPaths": [
       ".next/static/chunks/3fntmmi971322.js",
-      ".next/static/chunks/1pvvrqrtaqbm4.js",
+      ".next/static/chunks/2ebtkqqk22sak.js",
       ".next/static/chunks/3s6nzrbk-8mnv.js",
       ".next/static/chunks/19mx3mg6lkumu.js",
       ".next/static/chunks/1j_9b-l0n6u-t.js",
@@ -83,7 +83,7 @@
     "firstLoadUncompressedJsBytes": 480915,
     "firstLoadChunkPaths": [
       ".next/static/chunks/3fntmmi971322.js",
-      ".next/static/chunks/1pvvrqrtaqbm4.js",
+      ".next/static/chunks/2ebtkqqk22sak.js",
       ".next/static/chunks/3s6nzrbk-8mnv.js",
       ".next/static/chunks/19mx3mg6lkumu.js",
       ".next/static/chunks/1j_9b-l0n6u-t.js",
@@ -96,7 +96,7 @@
     "firstLoadUncompressedJsBytes": 480915,
     "firstLoadChunkPaths": [
       ".next/static/chunks/3fntmmi971322.js",
-      ".next/static/chunks/1pvvrqrtaqbm4.js",
+      ".next/static/chunks/2ebtkqqk22sak.js",
       ".next/static/chunks/3s6nzrbk-8mnv.js",
       ".next/static/chunks/19mx3mg6lkumu.js",
       ".next/static/chunks/1j_9b-l0n6u-t.js",
@@ -109,7 +109,7 @@
     "firstLoadUncompressedJsBytes": 480915,
     "firstLoadChunkPaths": [
       ".next/static/chunks/3fntmmi971322.js",
-      ".next/static/chunks/1pvvrqrtaqbm4.js",
+      ".next/static/chunks/2ebtkqqk22sak.js",
       ".next/static/chunks/3s6nzrbk-8mnv.js",
       ".next/static/chunks/19mx3mg6lkumu.js",
       ".next/static/chunks/1j_9b-l0n6u-t.js",
@@ -122,7 +122,7 @@
     "firstLoadUncompressedJsBytes": 480915,
     "firstLoadChunkPaths": [
       ".next/static/chunks/3fntmmi971322.js",
-      ".next/static/chunks/1pvvrqrtaqbm4.js",
+      ".next/static/chunks/2ebtkqqk22sak.js",
       ".next/static/chunks/3s6nzrbk-8mnv.js",
       ".next/static/chunks/19mx3mg6lkumu.js",
       ".next/static/chunks/1j_9b-l0n6u-t.js",
@@ -135,7 +135,7 @@
     "firstLoadUncompressedJsBytes": 480915,
     "firstLoadChunkPaths": [
       ".next/static/chunks/3fntmmi971322.js",
-      ".next/static/chunks/1pvvrqrtaqbm4.js",
+      ".next/static/chunks/2ebtkqqk22sak.js",
       ".next/static/chunks/3s6nzrbk-8mnv.js",
       ".next/static/chunks/19mx3mg6lkumu.js",
       ".next/static/chunks/1j_9b-l0n6u-t.js",
