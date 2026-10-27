@@ -1,0 +1,418 @@
+[
+  {
+    "width": 375,
+    "height": 812,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/images/nellva-assinatura-transparente.png",
+        "width": 255,
+        "height": 170,
+        "naturalWidth": 991
+      },
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=640&q=75",
+        "width": 420,
+        "height": 634,
+        "naturalWidth": 420
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 838.8125,
+      "top": 0,
+      "right": 375,
+      "bottom": 838.8125,
+      "left": 0
+    },
+    "menu": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/images/nellva-assinatura-transparente.png",
+        "width": 265,
+        "height": 177,
+        "naturalWidth": 991
+      },
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=640&q=75",
+        "width": 437,
+        "height": 659,
+        "naturalWidth": 436
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 862.109375,
+      "top": 0,
+      "right": 390,
+      "bottom": 862.109375,
+      "left": 0
+    },
+    "menu": true,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/images/nellva-assinatura-transparente.png",
+        "width": 256,
+        "height": 171,
+        "naturalWidth": 991
+      },
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1200&q=75",
+        "width": 691,
+        "height": 1043,
+        "naturalWidth": 1126
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 768,
+      "height": 896,
+      "top": 0,
+      "right": 768,
+      "bottom": 896,
+      "left": 0
+    },
+    "menu": true,
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/images/nellva-assinatura-transparente.png",
+        "width": 338,
+        "height": 225,
+        "naturalWidth": 991
+      },
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1080&q=75",
+        "width": 845,
+        "height": 1275,
+        "naturalWidth": 844
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 768,
+      "top": 0,
+      "right": 1024,
+      "bottom": 768,
+      "left": 0
+    },
+    "menu": true,
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "zoom": 1.25,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/images/nellva-assinatura-transparente.png",
+        "width": 270,
+        "height": 180,
+        "naturalWidth": 991
+      },
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1080&q=75",
+        "width": 675,
+        "height": 1019,
+        "naturalWidth": 675
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 819,
+      "height": 640,
+      "top": 0,
+      "right": 819,
+      "bottom": 640,
+      "left": 0
+    },
+    "menu": true,
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/images/nellva-assinatura-transparente.png",
+        "width": 422,
+        "height": 282,
+        "naturalWidth": 991
+      },
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1080&q=75",
+        "width": 1050,
+        "height": 1584,
+        "naturalWidth": 1049
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 800,
+      "top": 0,
+      "right": 1280,
+      "bottom": 800,
+      "left": 0
+    },
+    "menu": true,
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "zoom": 1.25,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/images/nellva-assinatura-transparente.png",
+        "width": 338,
+        "height": 225,
+        "naturalWidth": 991
+      },
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1080&q=75",
+        "width": 840,
+        "height": 1267,
+        "naturalWidth": 839
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 640,
+      "top": 0,
+      "right": 1024,
+      "bottom": 640,
+      "left": 0
+    },
+    "menu": true,
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/images/nellva-assinatura-transparente.png",
+        "width": 451,
+        "height": 301,
+        "naturalWidth": 991
+      },
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1200&q=75",
+        "width": 1120,
+        "height": 1690,
+        "naturalWidth": 1120
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1366,
+      "height": 768,
+      "top": 0,
+      "right": 1366,
+      "bottom": 768,
+      "left": 0
+    },
+    "menu": true,
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "zoom": 1.25,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/images/nellva-assinatura-transparente.png",
+        "width": 361,
+        "height": 241,
+        "naturalWidth": 991
+      },
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1200&q=75",
+        "width": 896,
+        "height": 1353,
+        "naturalWidth": 896
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1093,
+      "height": 640,
+      "top": 0,
+      "right": 1093,
+      "bottom": 640,
+      "left": 0
+    },
+    "menu": true,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/images/nellva-assinatura-transparente.png",
+        "width": 475,
+        "height": 317,
+        "naturalWidth": 991
+      },
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1200&q=75",
+        "width": 1181,
+        "height": 1782,
+        "naturalWidth": 1180
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 900,
+      "top": 0,
+      "right": 1440,
+      "bottom": 900,
+      "left": 0
+    },
+    "menu": true,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "zoom": 1.25,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/images/nellva-assinatura-transparente.png",
+        "width": 380,
+        "height": 254,
+        "naturalWidth": 991
+      },
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1200&q=75",
+        "width": 945,
+        "height": 1426,
+        "naturalWidth": 944
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1152,
+      "height": 720,
+      "top": 0,
+      "right": 1152,
+      "bottom": 720,
+      "left": 0
+    },
+    "menu": true,
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/images/nellva-assinatura-transparente.png",
+        "width": 480,
+        "height": 320,
+        "naturalWidth": 991
+      },
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1920&q=75",
+        "width": 1574,
+        "height": 2376,
+        "naturalWidth": 1112
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "top": 0,
+      "right": 1920,
+      "bottom": 1080,
+      "left": 0
+    },
+    "menu": true,
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "zoom": 1.25,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/images/nellva-assinatura-transparente.png",
+        "width": 480,
+        "height": 320,
+        "naturalWidth": 991
+      },
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1920&q=75",
+        "width": 1260,
+        "height": 1901,
+        "naturalWidth": 890
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 864,
+      "top": 0,
+      "right": 1536,
+      "bottom": 864,
+      "left": 0
+    },
+    "menu": true,
+    "errors": []
+  }
+]

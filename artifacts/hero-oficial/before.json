@@ -1,0 +1,340 @@
+[
+  {
+    "width": 375,
+    "height": 812,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=640&q=75",
+        "width": 420,
+        "height": 634,
+        "naturalWidth": 420
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 911.484375,
+      "top": 0,
+      "right": 375,
+      "bottom": 911.484375,
+      "left": 0
+    },
+    "menu": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=640&q=75",
+        "width": 437,
+        "height": 659,
+        "naturalWidth": 436
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 930.828125,
+      "top": 0,
+      "right": 390,
+      "bottom": 930.828125,
+      "left": 0
+    },
+    "menu": false,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=640&q=75",
+        "width": 559,
+        "height": 844,
+        "naturalWidth": 560
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 768,
+      "height": 1134.015625,
+      "top": 0,
+      "right": 768,
+      "bottom": 1134.015625,
+      "left": 0
+    },
+    "menu": false,
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=750&q=75",
+        "width": 717,
+        "height": 1082,
+        "naturalWidth": 716
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 768,
+      "top": 0,
+      "right": 1024,
+      "bottom": 768,
+      "left": 0
+    },
+    "menu": false,
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "zoom": 1.25,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=750&q=75",
+        "width": 596,
+        "height": 900,
+        "naturalWidth": 597
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 819,
+      "height": 1186.3125,
+      "top": 0,
+      "right": 819,
+      "bottom": 1186.3125,
+      "left": 0
+    },
+    "menu": false,
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1080&q=75",
+        "width": 896,
+        "height": 1352,
+        "naturalWidth": 895
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 800,
+      "top": 0,
+      "right": 1280,
+      "bottom": 800,
+      "left": 0
+    },
+    "menu": false,
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "zoom": 1.25,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1080&q=75",
+        "width": 717,
+        "height": 1082,
+        "naturalWidth": 716
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 704,
+      "top": 0,
+      "right": 1024,
+      "bottom": 704,
+      "left": 0
+    },
+    "menu": false,
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1080&q=75",
+        "width": 956,
+        "height": 1443,
+        "naturalWidth": 956
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1366,
+      "height": 768,
+      "top": 0,
+      "right": 1366,
+      "bottom": 768,
+      "left": 0
+    },
+    "menu": false,
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "zoom": 1.25,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1080&q=75",
+        "width": 765,
+        "height": 1155,
+        "naturalWidth": 765
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1093,
+      "height": 704,
+      "top": 0,
+      "right": 1093,
+      "bottom": 704,
+      "left": 0
+    },
+    "menu": false,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1080&q=75",
+        "width": 1008,
+        "height": 1521,
+        "naturalWidth": 1008
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 900,
+      "top": 0,
+      "right": 1440,
+      "bottom": 900,
+      "left": 0
+    },
+    "menu": false,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "zoom": 1.25,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1080&q=75",
+        "width": 806,
+        "height": 1217,
+        "naturalWidth": 806
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1152,
+      "height": 720,
+      "top": 0,
+      "right": 1152,
+      "bottom": 720,
+      "left": 0
+    },
+    "menu": false,
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "zoom": 1,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1200&q=75",
+        "width": 1150,
+        "height": 1736,
+        "naturalWidth": 1150
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1024,
+      "top": 0,
+      "right": 1920,
+      "bottom": 1024,
+      "left": 0
+    },
+    "menu": false,
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "zoom": 1.25,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://localhost:3001/_next/image?url=%2Fimages%2Fnellva-hero.jpg&w=1920&q=75",
+        "width": 1075,
+        "height": 1623,
+        "naturalWidth": 759
+      }
+    ],
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 864,
+      "top": 0,
+      "right": 1536,
+      "bottom": 864,
+      "left": 0
+    },
+    "menu": false,
+    "errors": []
+  }
+]

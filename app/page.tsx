@@ -12,7 +12,7 @@ export default function Home() {
   return <>
     <section className="one-hero" id="inicio" tabIndex={-1}>
       <div className="one-hero-copy">
-        <h1 aria-label="Nellva Sântana"><span className="hero-first-name"><span className="hero-initial">N</span>ellva</span>{" "}<span className="hero-surname">Sântana</span></h1>
+        <h1><Image className="hero-signature" src="/images/nellva-assinatura-transparente.png" alt="Nellva Sântana" width={991} height={661} unoptimized loading="eager" /></h1>
         <p className="hero-line">Minha voz, meu canto...</p>
         <div className="hero-social-links">
           {heroSocialLinks.map(({ id, name, href }) => (
@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         <a className="hero-cue" href="#artista">A artista <span aria-hidden="true">↓</span></a>
       </div>
-      <figure className="one-hero-photo"><Image src="/images/nellva-hero.jpg" alt="Nellva Sântana cantando ao microfone, de vestido floral" fill loading="eager" sizes="(max-width: 900px) 100vw, (max-width: 1440px) 66vw, 980px" /></figure>
+      <figure className="one-hero-photo"><Image src="/images/nellva-hero.jpg" alt="Nellva Sântana cantando ao microfone, de vestido floral" width={1357} height={2048} loading="eager" sizes="(max-width: 699px) 112vw, (max-aspect-ratio: 55/41) 110vh, 82vw" /></figure>
       <p className="hero-origin">Nordeste, Brasil</p>
     </section>
 

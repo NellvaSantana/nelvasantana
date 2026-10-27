@@ -1,0 +1,1390 @@
+{
+  "typography": [
+    {
+      "tag": "A",
+      "class": "skip-link",
+      "text": "Pular para o conteúdo",
+      "size": "18.88px",
+      "lineHeight": "31.152px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "brand",
+      "text": "Nellva Sântana",
+      "size": "17.28px",
+      "lineHeight": "28.512px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "H1",
+      "class": "",
+      "section": "inicio",
+      "text": "Nellva Sântana",
+      "size": "115.2px",
+      "lineHeight": "120.96px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "P",
+      "class": "hero-line",
+      "section": "inicio",
+      "text": "Minha voz, meu canto...",
+      "size": "30.24px",
+      "lineHeight": "39.312px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "inicio",
+      "text": "",
+      "size": "18.88px",
+      "lineHeight": "31.152px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "inicio",
+      "text": "",
+      "size": "18.88px",
+      "lineHeight": "31.152px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "inicio",
+      "text": "",
+      "size": "18.88px",
+      "lineHeight": "31.152px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "hero-cue",
+      "section": "inicio",
+      "text": "A artista ↓",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "P",
+      "class": "hero-origin",
+      "section": "inicio",
+      "text": "Nordeste, Brasil",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "artista",
+      "text": "A artista",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(139, 101, 8)"
+    },
+    {
+      "tag": "H2",
+      "class": "",
+      "section": "artista",
+      "text": "Raízesprofundas.",
+      "size": "86.4px",
+      "lineHeight": "82.08px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "artist-motto",
+      "section": "artista",
+      "text": "A mesma essência em cada canção.",
+      "size": "28.16px",
+      "lineHeight": "40.832px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "DT",
+      "class": "",
+      "section": "artista",
+      "text": "Base",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(139, 101, 8)"
+    },
+    {
+      "tag": "DD",
+      "class": "",
+      "section": "artista",
+      "text": "Nordeste, Brasil",
+      "size": "22.8px",
+      "lineHeight": "34.2px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "DT",
+      "class": "",
+      "section": "artista",
+      "text": "Influências",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(139, 101, 8)"
+    },
+    {
+      "tag": "DD",
+      "class": "",
+      "section": "artista",
+      "text": "Baião, Xote, MPB, Canção",
+      "size": "22.8px",
+      "lineHeight": "34.2px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "artista",
+      "text": "Nascida e criada no interior da Bahia, Nellva Sântana traz em sua",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "artista",
+      "text": "Ao longo da sua formação, ampliou esse universo ao dedicar-se tam",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "artista",
+      "text": "Hoje, transita com naturalidade entre projetos dedicados à música",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "artista",
+      "text": "Mais do que percorrer diferentes estilos, Nellva reúne experiênci",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "identidade",
+      "text": "Essência",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(122, 88, 7)"
+    },
+    {
+      "tag": "H2",
+      "class": "",
+      "section": "identidade",
+      "text": "Sons da DiversidadeCultural Brasileira",
+      "size": "72px",
+      "lineHeight": "68.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "identidade",
+      "text": "Sua formação musical conta com estudos em canto erudito, construi",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "identidade",
+      "text": "Essa base técnica refinada alia-se, de forma orgânica, à expressi",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "identidade",
+      "text": "Nellva Sântana destaca-se pela qualidade vocal, presença artístic",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "identidade",
+      "text": "MPB",
+      "size": "16px",
+      "lineHeight": "22.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "identidade",
+      "text": "Canção Erudita Brasileira e MPB clássica.",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "identidade",
+      "text": "Baião",
+      "size": "16px",
+      "lineHeight": "22.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "identidade",
+      "text": "A força rítmica e o balanço do sertão baiano.",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "identidade",
+      "text": "Xote",
+      "size": "16px",
+      "lineHeight": "22.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "identidade",
+      "text": "Melodia, sentimento e memória.",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "identidade",
+      "text": "Bossa Nova",
+      "size": "16px",
+      "lineHeight": "22.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "identidade",
+      "text": "Suavidade e balanço integrados à voz nordestina.",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "identidade",
+      "text": "Canto erudito",
+      "size": "16px",
+      "lineHeight": "22.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "identidade",
+      "text": "Árias de Ópera, Lied e Canto Coral Sacro.",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "performances",
+      "text": "A voz em cena",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(122, 88, 7)"
+    },
+    {
+      "tag": "H2",
+      "class": "",
+      "section": "performances",
+      "text": "Performances",
+      "size": "72px",
+      "lineHeight": "77.76px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "performances",
+      "text": "Momentos em que música, cultura e presença artística se encontram",
+      "size": "21.92px",
+      "lineHeight": "36.168px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "performances",
+      "text": "Taboão da Serra · 2025",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(122, 88, 7)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "performances",
+      "text": "66ª Paixão de Cristo",
+      "size": "64.8px",
+      "lineHeight": "72.576px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "performances",
+      "text": "Cada personagem vivida tornou-se um degrau importante na consolid",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "performances",
+      "text": "Taboão da Serra · 2025",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(122, 88, 7)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "performances",
+      "text": "66ª Paixão de Cristo",
+      "size": "64.8px",
+      "lineHeight": "72.576px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "performances",
+      "text": "Na Encenação da Paixão de Cristo, deu vida ao emblemático persona",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "performances",
+      "text": "Taboão da Serra · 2019",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(122, 88, 7)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "performances",
+      "text": "64ª Paixão de Cristo",
+      "size": "64.8px",
+      "lineHeight": "72.576px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "performances",
+      "text": "Na 64ª edição do espetáculo \"Encenação da Paixão de Cristo\", deu ",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "performances",
+      "text": "Taboão da Serra · 2023",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(122, 88, 7)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "performances",
+      "text": "64ª Paixão de Cristo",
+      "size": "64.8px",
+      "lineHeight": "72.576px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "performances",
+      "text": "Na 64ª edição da Encenação da Paixão de Cristo de Taboão da Serra",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "performances",
+      "text": "Taboão da Serra · 2019",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(122, 88, 7)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "performances",
+      "text": "63ª Paixão de Cristo",
+      "size": "64.8px",
+      "lineHeight": "72.576px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "performances",
+      "text": "Entre voz e emoção, interpretou a personagem Anjo na 63ª edição d",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "performances",
+      "text": "Teatro Adamastor · 2023",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(122, 88, 7)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "performances",
+      "text": "Mulheres que Cantam",
+      "size": "64.8px",
+      "lineHeight": "72.576px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "performances",
+      "text": "Participação no programa realizado no Teatro Adamastor, em aprese",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "performances",
+      "text": "Taboão da Serra · 2023",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(122, 88, 7)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "performances",
+      "text": "Direção Musical",
+      "size": "64.8px",
+      "lineHeight": "72.576px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "performances",
+      "text": "Na direção musical de Quase Cinquenta – É Pra Rir ou Chorar, deu ",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "performances",
+      "text": "São Paulo · 2017",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(122, 88, 7)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "performances",
+      "text": "A Dança de OZ",
+      "size": "64.8px",
+      "lineHeight": "72.576px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "performances",
+      "text": "No espetáculo de dança A Dança de OZ, uniu canto e movimento em c",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "videos",
+      "text": "AUDIOVISUAL",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(210, 180, 140)"
+    },
+    {
+      "tag": "H2",
+      "class": "",
+      "section": "videos",
+      "text": "Vídeos & Performances",
+      "size": "72px",
+      "lineHeight": "68.4px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "videos",
+      "text": "Bate Coração - Nellva Sântana - Elba Ramalho",
+      "size": "28.8px",
+      "lineHeight": "33.12px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link light",
+      "section": "videos",
+      "text": "Assistir no YouTube ↗",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "videos",
+      "text": "Mulheres Que Cantam- Xote das Meninas -Luiz Gonzaga",
+      "size": "28.8px",
+      "lineHeight": "33.12px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link light",
+      "section": "videos",
+      "text": "Assistir no YouTube ↗",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "videos",
+      "text": "Stizzoso, mio stizzoso (La Serva Padrona - G.B. Pergolesi)",
+      "size": "28.8px",
+      "lineHeight": "33.12px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link light",
+      "section": "videos",
+      "text": "Assistir no YouTube ↗",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "videos",
+      "text": "Uirapuru - Waldemar Henrique- Série Lenda Amazônicas",
+      "size": "28.8px",
+      "lineHeight": "33.12px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link light",
+      "section": "videos",
+      "text": "Assistir no YouTube ↗",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "videos",
+      "text": "An die Musik (Franz Schubert)",
+      "size": "28.8px",
+      "lineHeight": "33.12px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link light",
+      "section": "videos",
+      "text": "Assistir no YouTube ↗",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "videos",
+      "text": "Ave Maria - Franz Schubert (64º Paixão de Cristo - Taboão da Serr",
+      "size": "28.8px",
+      "lineHeight": "33.12px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link light",
+      "section": "videos",
+      "text": "Assistir no YouTube ↗",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "videos",
+      "text": "\"Amor Que Não Vivi\"- \"Duo Intimè\"- Canção Brasileira",
+      "size": "28.8px",
+      "lineHeight": "33.12px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link light",
+      "section": "videos",
+      "text": "Assistir no YouTube ↗",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "videos",
+      "text": "Pai Nosso (Carlos Zink)",
+      "size": "28.8px",
+      "lineHeight": "33.12px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link light",
+      "section": "videos",
+      "text": "Assistir no YouTube ↗",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "videos",
+      "text": "Canto de Verônica (Paixão de Cristo - Taboão da Serra)",
+      "size": "28.8px",
+      "lineHeight": "33.12px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link light",
+      "section": "videos",
+      "text": "Assistir no YouTube ↗",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "H2",
+      "class": "",
+      "section": "projetos",
+      "text": "Parcerias Musicais",
+      "size": "72px",
+      "lineHeight": "68.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "projetos",
+      "text": "Noutra Bossa",
+      "size": "57.6px",
+      "lineHeight": "54.72px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "project-summary",
+      "section": "projetos",
+      "text": "Músicas autorais e releituras em parceria, disponíveis no Spotify",
+      "size": "26px",
+      "lineHeight": "39px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "projetos",
+      "text": "Entre a criação e a reinvenção, o Noutra Bossa apresenta um reper",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "projetos",
+      "text": "",
+      "size": "18.88px",
+      "lineHeight": "31.152px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "projetos",
+      "text": "",
+      "size": "18.88px",
+      "lineHeight": "31.152px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "projetos",
+      "text": "Duo Intimè",
+      "size": "57.6px",
+      "lineHeight": "54.72px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "project-summary",
+      "section": "projetos",
+      "text": "Concerto de Música de Câmara dedicado à Canção Erudita Brasileira",
+      "size": "26px",
+      "lineHeight": "39px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "projetos",
+      "text": "Concerto de Música de Câmara dedicado à Canção Erudita Brasileira",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "projetos",
+      "text": "",
+      "size": "18.88px",
+      "lineHeight": "31.152px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "projetos",
+      "text": "",
+      "size": "18.88px",
+      "lineHeight": "31.152px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "galeria",
+      "text": "MOMENTOS",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(139, 101, 8)"
+    },
+    {
+      "tag": "H2",
+      "class": "",
+      "section": "galeria",
+      "text": "Galeria",
+      "size": "72px",
+      "lineHeight": "68.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "galeria",
+      "text": "Imagens que revelam diferentes dimensões da presença artística de",
+      "size": "21.92px",
+      "lineHeight": "36.168px",
+      "color": "rgb(87, 75, 70)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "galeria",
+      "text": "Galeria",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(139, 101, 8)"
+    },
+    {
+      "tag": "H2",
+      "class": "",
+      "section": "galeria",
+      "text": "Presença, música e expressão.",
+      "size": "72px",
+      "lineHeight": "68.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "",
+      "text": "Nos Palcos",
+      "size": "50.4px",
+      "lineHeight": "55.44px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "",
+      "text": "Bastidores",
+      "size": "50.4px",
+      "lineHeight": "55.44px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "",
+      "text": "Retratos",
+      "size": "50.4px",
+      "lineHeight": "55.44px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "agenda",
+      "text": "Agenda",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(139, 101, 8)"
+    },
+    {
+      "tag": "H2",
+      "class": "",
+      "section": "agenda",
+      "text": "Novas apresentaçõesserão anunciadas em breve.",
+      "size": "72px",
+      "lineHeight": "68.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "musica",
+      "text": "Música",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(96, 69, 8)"
+    },
+    {
+      "tag": "H2",
+      "class": "",
+      "section": "musica",
+      "text": "Sua música emtodas as plataformas.",
+      "size": "86.4px",
+      "lineHeight": "82.08px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "musica",
+      "text": "Da canção brasileira ao repertório de concerto, descubra diferent",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link",
+      "section": "musica",
+      "text": "Ouça nas apresentações ↑",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "musica",
+      "text": "Spotify",
+      "size": "18.88px",
+      "lineHeight": "28.32px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "musica",
+      "text": "Lançamento em breve",
+      "size": "16px",
+      "lineHeight": "27.2px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "musica",
+      "text": "Apple Music",
+      "size": "18.88px",
+      "lineHeight": "28.32px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "musica",
+      "text": "Lançamento em breve",
+      "size": "16px",
+      "lineHeight": "27.2px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "musica",
+      "text": "Deezer",
+      "size": "18.88px",
+      "lineHeight": "28.32px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "musica",
+      "text": "Lançamento em breve",
+      "size": "16px",
+      "lineHeight": "27.2px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "imprensa",
+      "text": "Imprensa",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(139, 101, 8)"
+    },
+    {
+      "tag": "H2",
+      "class": "",
+      "section": "imprensa",
+      "text": "Informação clara.Identidade preservada.",
+      "size": "86.4px",
+      "lineHeight": "82.08px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "imprensa",
+      "text": "Clipping ↓",
+      "size": "16px",
+      "lineHeight": "26.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "imprensa",
+      "text": "Release ↓",
+      "size": "16px",
+      "lineHeight": "26.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "clipping",
+      "text": "Clipping— Publicações e Imprensa",
+      "size": "57.6px",
+      "lineHeight": "64.512px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "clipping",
+      "text": "Registros e publicações que documentam minha presença artística, ",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "clipping",
+      "text": "",
+      "size": "18.88px",
+      "lineHeight": "31.152px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "FIGCAPTION",
+      "class": "",
+      "section": "clipping",
+      "text": "Jornal na NetVer recorte ↗",
+      "size": "16px",
+      "lineHeight": "26.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link",
+      "section": "clipping",
+      "text": "Ver recorte ↗",
+      "size": "14px",
+      "lineHeight": "22.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "clipping",
+      "text": "",
+      "size": "18.88px",
+      "lineHeight": "31.152px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "FIGCAPTION",
+      "class": "",
+      "section": "clipping",
+      "text": "Guarulhos CulturalVer recorte ↗",
+      "size": "16px",
+      "lineHeight": "26.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link",
+      "section": "clipping",
+      "text": "Ver recorte ↗",
+      "size": "14px",
+      "lineHeight": "22.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "clipping",
+      "text": "",
+      "size": "18.88px",
+      "lineHeight": "31.152px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "FIGCAPTION",
+      "class": "",
+      "section": "clipping",
+      "text": "Prefeitura de Taboão da SerraVer recorte ↗",
+      "size": "16px",
+      "lineHeight": "26.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link",
+      "section": "clipping",
+      "text": "Ver recorte ↗",
+      "size": "14px",
+      "lineHeight": "22.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "clipping",
+      "text": "",
+      "size": "18.88px",
+      "lineHeight": "31.152px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "FIGCAPTION",
+      "class": "",
+      "section": "clipping",
+      "text": "O Taboanense · Gazeta de S. PauloVer recorte ↗",
+      "size": "16px",
+      "lineHeight": "26.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link",
+      "section": "clipping",
+      "text": "Ver recorte ↗",
+      "size": "14px",
+      "lineHeight": "22.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "clipping",
+      "text": "",
+      "size": "18.88px",
+      "lineHeight": "31.152px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "FIGCAPTION",
+      "class": "",
+      "section": "clipping",
+      "text": "Jornal SP RepórterVer recorte ↗",
+      "size": "16px",
+      "lineHeight": "26.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link",
+      "section": "clipping",
+      "text": "Ver recorte ↗",
+      "size": "14px",
+      "lineHeight": "22.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "section": "clipping",
+      "text": "",
+      "size": "18.88px",
+      "lineHeight": "31.152px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "FIGCAPTION",
+      "class": "",
+      "section": "clipping",
+      "text": "Prefeitura de Taboão da Serra · Kintê Notícias · SP RepórterVer r",
+      "size": "16px",
+      "lineHeight": "26.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "A",
+      "class": "text-link",
+      "section": "clipping",
+      "text": "Ver recorte ↗",
+      "size": "14px",
+      "lineHeight": "22.4px",
+      "color": "rgb(26, 15, 13)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "release",
+      "text": "Release",
+      "size": "31.6805px",
+      "lineHeight": "36.4325px",
+      "color": "rgb(17, 17, 17)"
+    },
+    {
+      "tag": "P",
+      "class": "release-signature",
+      "section": "release",
+      "text": "",
+      "size": "76.0331px",
+      "lineHeight": "91.2398px",
+      "color": "rgb(17, 17, 17)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "release",
+      "text": "Cantora e produtora cultural, com atuação entre a música popular ",
+      "size": "23.7604px",
+      "lineHeight": "30.4132px",
+      "color": "rgb(17, 17, 17)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "release",
+      "text": "Sua experiência inclui 13 anos de atuação como corista no Coral S",
+      "size": "23.7604px",
+      "lineHeight": "30.4132px",
+      "color": "rgb(17, 17, 17)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "release",
+      "text": "Entre o canto, a cena e a produção cultural, Nellva desenvolve um",
+      "size": "23.7604px",
+      "lineHeight": "30.4132px",
+      "color": "rgb(17, 17, 17)"
+    },
+    {
+      "tag": "P",
+      "class": "eyebrow",
+      "section": "contato",
+      "text": "Booking · parcerias · imprensa",
+      "size": "15.008px",
+      "lineHeight": "22.512px",
+      "color": "rgb(210, 180, 140)"
+    },
+    {
+      "tag": "H2",
+      "class": "",
+      "section": "contato",
+      "text": "Vamos levar brasilidade ao seu evento?",
+      "size": "64.8px",
+      "lineHeight": "61.56px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "section": "contato",
+      "text": "Para contratações, parcerias ou imprensa, entre em contato atravé",
+      "size": "18.88px",
+      "lineHeight": "33.984px",
+      "color": "rgb(187, 176, 170)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "section": "contato",
+      "text": "Fale com Nellva Sântana",
+      "size": "24px",
+      "lineHeight": "31.2px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "booking-channel",
+      "section": "contato",
+      "text": "E-mailnellvasantanacontato@gmail.com",
+      "size": "18.72px",
+      "lineHeight": "30.888px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "booking-channel",
+      "section": "contato",
+      "text": "Telefone / WhatsApp ↗55 (11) 99557-7461",
+      "size": "18.72px",
+      "lineHeight": "30.888px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "A",
+      "class": "brand",
+      "text": "Nellva Sântana",
+      "size": "17.28px",
+      "lineHeight": "28.512px",
+      "color": "rgb(249, 247, 242)"
+    },
+    {
+      "tag": "P",
+      "class": "",
+      "text": "Raízes profundas. A mesma essência em cada canção.",
+      "size": "22.4px",
+      "lineHeight": "normal",
+      "color": "rgb(185, 175, 169)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "text": "A artista",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(185, 175, 169)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "text": "Performances",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(185, 175, 169)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "text": "Projetos",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(185, 175, 169)"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "text": "Imprensa",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(185, 175, 169)"
+    },
+    {
+      "tag": "SMALL",
+      "class": "",
+      "text": "© 2026 Nellva Sântana",
+      "size": "15px",
+      "lineHeight": "24px",
+      "color": "rgb(185, 175, 169)"
+    }
+  ]
+}
