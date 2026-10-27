@@ -1,7 +1,25 @@
+# Dependencies and generated Next.js output
 node_modules/
 .next/
 out/
+/build/
+/coverage/
 *.tsbuildinfo
+next-env.d.ts
+
+# Environment secrets; keep the sanitized template versioned
 .env*
 !.env.example
+
+# Local deployment metadata
+.vercel/
+
+# Logs and temporary editor files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
 .DS_Store
+Thumbs.db
