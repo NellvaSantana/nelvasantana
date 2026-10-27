@@ -3425,11 +3425,11 @@ footer > div {
 
 .one-hero {
   --hero-background: #08070b;
-  --portrait-width: min(70vw, 1150px);
+  --portrait-width: max(82vw, 110svh);
   isolation: isolate;
-  height: min(100svh, 64rem);
-  min-height: 44rem;
-  padding: var(--header) max(6vw, calc((100vw - 1560px) / 2)) 2rem;
+  height: 100svh;
+  min-height: 40rem;
+  padding: calc(var(--header) + 1rem) 4vw 2rem;
   background: var(--hero-background);
   color: var(--paper);
   align-items: center;
@@ -3444,39 +3444,27 @@ footer > div {
 
 .one-hero-copy {
   z-index: 2;
-  width: 46%;
+  width: 38%;
   padding: 0;
   position: relative;
 }
 
 .one-hero-copy h1 {
-  font: 400 clamp(5rem, 8vw, 8.5rem)/1.05 var(--font-script), cursive;
-  letter-spacing: 0;
-  font-synthesis: none;
-  margin: .12em 0 .25em;
+  width: clamp(16rem, 33vw, 30rem);
+  max-width: 100%;
+  margin: 0;
+  line-height: 1;
 }
 
-.hero-first-name, .hero-surname {
-  white-space: nowrap;
+.hero-signature {
+  width: 100%;
+  height: auto;
   display: block;
-}
-
-.hero-first-name {
-  font-size: 1.04em;
-}
-
-.hero-initial {
-  font-family: var(--font-script), cursive;
-}
-
-.hero-surname {
-  color: #d0a22b;
-  font-size: 1.12em;
 }
 
 .one-hero .hero-line {
   font: italic clamp(1.35rem,2.1vw,2rem)/1.3 var(--font-serif);
-  margin: 1.5rem 0 2rem;
+  margin: 1.25rem 0 1rem;
   display: block;
 }
 
@@ -3499,17 +3487,15 @@ footer > div {
   width: var(--portrait-width);
   max-width: none;
   height: auto;
-  right: max(-3vw, 50vw - 880px);
-  top: calc(var(--header) - var(--portrait-width) * .29);
+  right: -3vw;
+  top: calc(var(--header) + 1rem - var(--portrait-width) * .39);
   object-fit: contain;
   position: absolute;
-  -webkit-mask-image: linear-gradient(90deg, #0000, #000 12% 88%, #0000);
-  mask-image: linear-gradient(90deg, #0000, #000 12% 88%, #0000);
 }
 
 .one-hero-photo:after {
   content: "";
-  background: linear-gradient(90deg, var(--hero-background) 14%, transparent 57%), linear-gradient(0deg, var(--hero-background), transparent 19%);
+  background: linear-gradient(90deg, var(--hero-background) 5%, transparent 43%), linear-gradient(0deg, var(--hero-background), transparent 12%);
   position: absolute;
   inset: 0;
 }
@@ -3522,14 +3508,21 @@ footer > div {
   margin: 0;
   position: absolute;
   bottom: 2rem;
-  right: max(2vw, 50vw - 780px);
+  right: 2vw;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 700px) and (max-width: 1000px) and (orientation: portrait) {
+  .one-hero {
+    --portrait-width: 90vw;
+    height: min(100svh, 56rem);
+  }
+}
+
+@media (max-width: 699px) {
   .one-hero {
     height: auto;
     min-height: 0;
-    padding: calc(var(--header) + 2rem) 6vw 0;
+    padding: calc(var(--header) + 1.5rem) 6vw 0;
     display: block;
   }
 
@@ -3539,13 +3532,16 @@ footer > div {
   }
 
   .one-hero-copy h1 {
-    margin: 0 0 .2em;
-    font-size: clamp(4.4rem, 12vw, 6rem);
+    width: min(68vw, 19rem);
   }
 
   .one-hero .hero-line {
-    margin: 1rem 0;
+    margin: 1rem 0 .5rem;
     font-size: 1.35rem;
+  }
+
+  .one-hero .hero-social-links {
+    margin-bottom: .5rem;
   }
 
   .one-hero .hero-cue {
@@ -3553,34 +3549,24 @@ footer > div {
   }
 
   .one-hero-photo {
-    aspect-ratio: 1357 / 1750;
     width: 100vw;
-    height: auto;
-    margin: -1rem -6vw 0;
+    height: 110vw;
+    margin: 0 -6vw;
     position: relative;
   }
 
   .one-hero-photo img {
-    width: 112%;
-    top: -28%;
-    right: -6%;
-    -webkit-mask-image: none;
-    mask-image: none;
+    width: 112vw;
+    top: -42vw;
+    right: -6vw;
   }
 
   .one-hero-photo:after {
-    background: linear-gradient(180deg, var(--hero-background), transparent 14%), linear-gradient(0deg, var(--hero-background), transparent 16%);
+    background: linear-gradient(180deg, var(--hero-background), transparent 8%), linear-gradient(0deg, var(--hero-background), transparent 12%);
   }
 
   .hero-origin {
     display: none;
-  }
-}
-
-@media (min-width: 761px) and (max-width: 900px) {
-  .one-hero-photo {
-    width: 65vw;
-    margin: -1rem auto 0;
   }
 }
 
