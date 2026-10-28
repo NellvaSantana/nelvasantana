@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Great_Vibes, Manrope, Oswald } from "next/font/google";
+import { Cormorant_Garamond, Great_Vibes, Lora, Manrope, Oswald } from "next/font/google";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import "./globals.css";
+
+const editorial = Lora({ subsets: ["latin"], weight: "400", style: "normal", variable: "--font-biography", display: "swap" });
 
 const serif = Cormorant_Garamond({ subsets: ["latin"], variable: "--font-serif", weight: ["400", "500", "600"], style: ["normal", "italic"], display: "swap" });
 const script = Great_Vibes({ subsets: ["latin"], variable: "--font-script", weight: "400", display: "swap" });
@@ -19,5 +21,5 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const structuredData = { "@context": "https://schema.org", "@type": "Person", name: "Nellva Sântana", url: siteUrl, jobTitle: "Artista" };
-  return <html lang="pt-BR"><body className={`${serif.variable} ${script.variable} ${sans.variable} ${condensed.variable}`}><a className="skip-link" href="#conteudo">Pular para o conteúdo</a><Header /><main id="conteudo">{children}</main><Footer /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} /></body></html>;
+  return <html lang="pt-BR"><body className={`${serif.variable} ${script.variable} ${sans.variable} ${condensed.variable} ${editorial.variable}`}><a className="skip-link" href="#conteudo">Pular para o conteúdo</a><Header /><main id="conteudo">{children}</main><Footer /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} /></body></html>;
 }
