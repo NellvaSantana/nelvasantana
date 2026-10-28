@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Lora } from "next/font/google";
+import biographyStyles from "./biography.module.css";
 import type { CSSProperties } from "react";
 import { Press } from "@/components/press";
 import { VideoCard } from "@/components/video-card";
@@ -7,6 +9,8 @@ import { ScrollRail } from "@/components/scroll-rail";
 import { SectionTitle } from "@/components/ui";
 import { agendaEvents, musicPlatforms, biography, heroSocialLinks, identity, identityStyles, performanceImages, performances, projects, videos } from "@/data/content";
 import { galleryGroups } from "@/data/gallery";
+
+const biographyFont = Lora({ subsets: ["latin"], weight: "400", style: "normal", variable: "--font-biography", display: "swap" });
 
 export default function Home() {
   return <>
@@ -33,7 +37,7 @@ export default function Home() {
 
     <section className="artist-chapter anchor-section" id="artista" tabIndex={-1}>
       <aside><p className="eyebrow">A artista</p><h2>Raízes<br /><em>profundas.</em></h2><p className="artist-motto">A mesma essência em cada canção.</p><dl><div><dt>Base</dt><dd>Nordeste, Brasil</dd></div><div><dt>Influências</dt><dd>Baião, Xote, MPB, Canção</dd></div></dl></aside>
-      <div className="artist-copy">{biography.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
+      <div className={`artist-copy ${biographyFont.variable} ${biographyStyles.copy}`}>{biography.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
     </section>
 
     <section className="identity-chapter anchor-section" id="identidade" tabIndex={-1}>
