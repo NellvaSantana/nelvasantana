@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "width": 375,
+      "overflow": false,
+      "paragraphs": 31,
+      "nonLora": [],
+      "clipped": 0
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "paragraphs": 31,
+      "nonLora": [],
+      "clipped": 0
+    },
+    {
+      "width": 430,
+      "overflow": false,
+      "paragraphs": 31,
+      "nonLora": [],
+      "clipped": 0
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "paragraphs": 31,
+      "nonLora": [],
+      "clipped": 0
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "paragraphs": 31,
+      "nonLora": [],
+      "clipped": 0
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "paragraphs": 31,
+      "nonLora": [],
+      "clipped": 0
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "paragraphs": 31,
+      "nonLora": [],
+      "clipped": 0
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "paragraphs": 31,
+      "nonLora": [],
+      "clipped": 0
+    }
+  ],
+  "zoom": [
+    {
+      "factor": 1.25,
+      "equivalentViewport": {
+        "width": 1024,
+        "height": 800
+      },
+      "overflow": false
+    },
+    {
+      "factor": 2,
+      "equivalentViewport": {
+        "width": 640,
+        "height": 500
+      },
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "preservationDifferences": []
+}

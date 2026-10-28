@@ -76,7 +76,7 @@
 .one-projects figure.contain img{object-fit:contain;background:#e8e1d7}
 .one-projects h3{font-size:clamp(2.6rem,4vw,4.5rem);margin:.25em 0}
 .one-projects article>div>p{font-size:clamp(1.0625rem,1rem + .2vw,1.125rem);line-height:1.75}
-.one-projects .project-summary{font:italic clamp(1.5rem,1.4rem + .25vw,1.75rem)/1.5 var(--font-serif)}
+.one-projects .project-summary{font-size:clamp(1.5rem,1.4rem + .25vw,1.75rem);line-height:1.5}
 .chapter-heading{display:flex;justify-content:space-between;align-items:end;gap:5vw;margin-bottom:2rem}
 .chapter-heading>p{max-width:520px;color:#b7aaa3}
 .videos-chapter{padding:13vh 0 13vh max(5vw,calc((100vw - 1360px)/2));background:#100a08;color:var(--paper)}
@@ -434,17 +434,6 @@ section:focus{outline:none}
   line-height:var(--leading-description);
 }
 .release-content>p:not(.eyebrow){color:#574b46}
-@media(min-width:761px){
-  .artist-copy p,
-  .identity-chapter>div>p,
-  .performance-stack article>div>p:last-child,
-  .one-projects article>div>p:not(.project-summary),
-  .clipping-content header>p{
-    text-align:justify;
-    text-justify:inter-word;
-    hyphens:auto;
-  }
-}
 
 /* Final refinements: shared reading scale and editorial release. */
 body{font-size:var(--type-description)}
@@ -468,7 +457,7 @@ footer>div{gap:.25rem}
 .release-photo-crop{position:relative;aspect-ratio:677/963;overflow:hidden}
 .release-photo-crop img{object-fit:cover;object-position:58% 100%;transform:scale(1.3);transform-origin:bottom center}
 .release-copy{min-width:0;padding:2.6cqi 3.5cqi 3.8cqi 3.8cqi}
-.release-copy>p:not(.release-signature){font:700 1.875cqi/1.28 Arial,sans-serif;text-align:justify;hyphens:none;overflow-wrap:normal;margin:0 0 1.4em;letter-spacing:0}
+.release-copy>p:not(.release-signature){font-size:1.875cqi;line-height:1.28;text-align:justify;hyphens:none;overflow-wrap:normal;margin:0 0 1.4em;letter-spacing:0}
 .release-copy>p:last-child{margin-bottom:0}
 /* Original PDF signature as static outlines; independent of the Hero. */
 .release-copy .release-signature{font-size:clamp(2.5rem,6cqi,5.5rem);line-height:1.2;height:1.2em;margin:0 0 .7em;display:flex;align-items:center}
@@ -482,8 +471,6 @@ footer>div{gap:.25rem}
  .release-copy>p:not(.release-signature){font-size:clamp(1rem,2.4vw,1.375rem);line-height:1.5;text-align:left;letter-spacing:0;hyphens:none}
  .release-copy .release-signature{font-size:clamp(2rem,7.5vw,4rem);white-space:normal;margin-bottom:.8em}
  .press-chapter{grid-template-columns:minmax(0,1fr)}
- .artist-copy p,.identity-chapter>div>p,.performance-stack article>div>p:last-child,
- .one-projects article>div>p:not(.project-summary),.clipping-content header>p{text-align:start;hyphens:none}
 }
 
 /* The original photograph's hair starts at ~39% of its rendered width.
@@ -538,3 +525,26 @@ footer>div{gap:.25rem}
 /* Introductory prose shares a scale above body copy. */
 .section-title > p:last-child:not(.eyebrow),
 .gallery-chapter .chapter-heading > p { font-size: var(--type-intro); line-height: 1.65; }
+
+/* Opt in reading copy here or use .editorial-copy for new prose.
+   Scale, spacing and the Release composition stay with their section rules.
+   Biography retains its approved responsive scale in biography.module.css. */
+.editorial-copy,
+.page-hero .lede,
+.section-title > p:last-child:not(.eyebrow),
+.identity-chapter > div > p,
+.identity-style p,
+.performance-stack article > div > p:not(.eyebrow),
+.one-projects article > div > p,
+.gallery-chapter .chapter-heading > p,
+.agenda-chapter > p:not(.eyebrow),
+.music-chapter > p:not(.eyebrow),
+.clipping-content header > p,
+.release-copy > p:not(.release-signature),
+.booking-contact > p {
+  font-family: var(--font-biography), Georgia, serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  hyphens: none;
+}
