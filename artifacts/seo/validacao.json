@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "title": "Nellva Sântana — Site Oficial",
+    "canonical": "https://nellvasantana.com.br/",
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1",
+      "next-size-adjust": "",
+      "description": "Site oficial de Nellva Sântana, cantora e intérprete brasileira. Raízes nordestinas, música brasileira, repertório lírico e presença cênica.",
+      "og:title": "Nellva Sântana — Site Oficial",
+      "og:description": "Raízes profundas. A mesma essência em cada canção.",
+      "og:url": "https://nellvasantana.com.br",
+      "og:site_name": "Nellva Sântana",
+      "og:locale": "pt_BR",
+      "og:image": "https://nellvasantana.com.br/opengraph-image?0664b3b14c54708a",
+      "og:image:type": "image/png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "Nellva Sântana — Raízes profundas. A mesma essência em cada canção.",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Nellva Sântana",
+      "twitter:description": "Raízes profundas. A mesma essência em cada canção.",
+      "twitter:image": "https://nellvasantana.com.br/opengraph-image?0664b3b14c54708a",
+      "twitter:image:alt": "Nellva Sântana — Raízes profundas. A mesma essência em cada canção.",
+      "twitter:image:type": "image/png",
+      "twitter:image:width": "1200",
+      "twitter:image:height": "630"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://nellvasantana.com.br/#artista",
+        "name": "Nellva Sântana",
+        "url": "https://nellvasantana.com.br/",
+        "description": "Site oficial de Nellva Sântana, cantora e intérprete brasileira. Raízes nordestinas, música brasileira, repertório lírico e presença cênica.",
+        "jobTitle": "Cantora e intérprete brasileira",
+        "image": "https://nellvasantana.com.br/images/nellva-hero.jpg",
+        "sameAs": [
+          "https://www.instagram.com/nellvasantanacantora/",
+          "https://www.youtube.com/@nellvasantanacantora",
+          "https://www.facebook.com/share/1JkPq99AjH/"
+        ]
+      }
+    ],
+    "h1": 1,
+    "main": 1,
+    "missingAlt": 0,
+    "badAnchors": []
+  },
+  "sitemap": {
+    "errors": 0,
+    "namespace": "http://www.sitemaps.org/schemas/sitemap/0.9",
+    "urls": [
+      "https://nellvasantana.com.br/"
+    ],
+    "lastmod": 0
+  },
+  "robots": "User-Agent: *\nAllow: /\n\nSitemap: https://nellvasantana.com.br/sitemap.xml\n",
+  "redirects": {
+    "artista": 308,
+    "agenda": 308,
+    "contato": 308,
+    "galeria": 308,
+    "imprensa": 308,
+    "musica": 308,
+    "projetos": 308,
+    "trajetoria": 308,
+    "videos": 308
+  },
+  "visual": [
+    {
+      "width": 390,
+      "samePixels": false,
+      "mainUnchanged": true,
+      "menu": true
+    },
+    {
+      "width": 1440,
+      "samePixels": true,
+      "mainUnchanged": true,
+      "menu": true
+    }
+  ],
+  "browserErrors": []
+}
