@@ -5,6 +5,7 @@ import { Footer } from "@/components/footer";
 import { heroSocialLinks } from "@/data/content";
 import { siteDescription, siteUrl } from "@/data/seo";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const editorial = Lora({ subsets: ["latin"], weight: "400", style: "normal", variable: "--font-biography", display: "swap" });
 
@@ -34,5 +35,5 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     image: new URL("/images/nellva-hero.jpg", siteUrl).href,
     sameAs: heroSocialLinks.map(({ href }) => href),
   };
-  return <html lang="pt-BR"><body className={`${serif.variable} ${script.variable} ${sans.variable} ${condensed.variable} ${editorial.variable}`}><a className="skip-link" href="#conteudo">Pular para o conteúdo</a><Header /><main id="conteudo">{children}</main><Footer /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }} /></body></html>;
+  return <html lang="pt-BR"><body className={`${serif.variable} ${script.variable} ${sans.variable} ${condensed.variable} ${editorial.variable}`}><a className="skip-link" href="#conteudo">Pular para o conteúdo</a><Header /><main id="conteudo">{children}</main><Footer /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }} /><Analytics /></body></html>;
 }
